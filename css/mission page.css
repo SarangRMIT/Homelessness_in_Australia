@@ -1,0 +1,202 @@
+/* External CSS style file for the mission page*/
+
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f6f6f9;
+ }
+ 
+ /* Header (div) formatting */
+ .header {
+    padding: 10px;
+    text-align: center;
+    background-image: url('mission.png');
+    background-size: cover;
+    background-color: #ffffff00;
+ }
+ 
+ .header h1 {
+    font-size: 50px;
+ }
+ 
+ /* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
+ /* Style the top navigation bar */
+ .topnav {
+    overflow: hidden;
+    background-color: #1B2355;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    color: #f1d9c5;
+  }
+
+  .topnav a.split{
+   float: left;
+   padding: 15px 8px;
+ }
+ 
+ .topnav a.split:hover{
+   color: #f2f2f2;
+ }
+  
+  /* Style the content */
+  .content {
+    background-color: #ddd;
+    padding: 10px;
+  }
+  
+  .content h1{
+   background-color: #1B2355;
+   text-align: center;
+   color: #f2f2f2;
+   font-size: 35px;
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
+.content p{
+   font-size: 20px;
+   text-align: center;
+}
+
+table{
+   border: none;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ td{
+   border: none;
+   font-size: 20px;
+   color: #1B2355;
+ }
+
+.content h1.name{
+   font-size: 20px;
+   text-align: center ;
+   color: #000000;
+   background-color: #ddd;
+}
+
+.content img.andrew{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content img.choi{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.findOutMore{
+   background-color: #f1d9c5;
+   text-align: center;
+ }
+
+.findOutMore table{
+   border: none;
+   width: 75%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .findOutMore td{
+   border:none;
+   text-align: center;
+   height: 50;
+ }
+
+ .findOutMore .blankrow{
+   height: 7px;
+ }
+
+ .findOutMore a.page1 {
+   width: fit-content;
+   font-size: 17px;
+   height: 70;
+   margin-left: 57%;
+   display: block;
+   color: #f2f2f2;
+   background-color: #1B2355;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ .findOutMore a.page2 {
+   width: fit-content;
+   font-size: 17px;
+   height: 70;
+   margin-left: 6%;
+   display: block;
+   color: #f2f2f2;
+   background-color: #1B2355;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ .findOutMore a.page3 {
+   width: fit-content;
+   font-size: 17px;
+   height: 70;
+   margin-left: 16%;
+   display: block;
+   color: #f2f2f2;
+   background-color: #1B2355;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ .findOutMore a.page4 {
+   width: fit-content;
+   font-size: 17px;
+   height: 70;
+   margin-left: auto;
+   margin-right: 10%;
+   display: block;
+   color: #f2f2f2;
+   background-color: #1B2355;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ /* Style the footer */
+ .footer {
+   background-color: #1B2355;
+   color:#f1f1f1;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .footer .column1 {
+   float: left;
+   height: 1.5rem;
+   width: 2rem;
+   margin-right: 0.75rem;
+   margin-left: 1%;
+   background-color: #1B2355;
+}
+
+.footer p{
+ margin-left: 1%;
+}

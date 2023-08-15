@@ -1,0 +1,213 @@
+/* External CSS style file */
+
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+ }
+ 
+ /* Header (div) formatting */
+ .header {
+    padding: 10px;
+    text-align: left;
+    background-image: url('facts-background_homepage2.png');
+    background-size: cover;
+ }
+ 
+ .header h1 {
+    font-size: 80px;
+    text-align: center;
+ }
+ 
+ .header ul{
+     font-size: 35px;
+     display: table;
+     margin: 0 auto;
+ }
+
+ .header li:not(:last-child) { 
+    margin-bottom: 7px;  
+}
+ 
+ /* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
+ /* Style the top navigation bar */
+ .topnav {
+    overflow: hidden;
+    background-color: #1B2355;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    color: #f1d9c5;
+  } 
+ 
+  .topnav a.split{
+    float: left;
+    padding: 15px 8px;
+  }
+  
+  .topnav a.split:hover{
+    color: #f2f2f2;
+  }
+
+  /* Style the content */
+  .content {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    color: #1B2355;
+  }
+
+  .content h1{
+    font-size: 45px;
+  }
+
+  .content p {
+      font-size: 25px;
+  }
+  
+  .content a{
+    font-size: 25px;
+    color: #1B2355;
+  }
+
+  .content a:hover{
+    color:#6b1253;
+  }
+
+  .content .totalLGA{
+    width: 47%;
+    padding: 10px;
+    float: left;
+    height: 500;
+    margin-left: 2%;
+    background-image: url('TotalLGAbackground.png');
+    background-size: cover;
+  }
+
+  .content .totalPopulation{
+    margin-left: 51%;
+    height: 500;
+    padding: 10px;
+    margin-right: 2%;
+    background-image: url('TotalPopulationBackground.png');
+    background-size: cover;
+  }
+
+  .content .totalLGA h2{
+    color: #000000;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 200;
+  }
+
+  .content .totalPopulation h2{
+    color: #000000;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 200;
+  }
+
+  .findOutMore{
+    background-color: #f1d9c5;
+    text-align: center;
+  }
+
+  table{
+    border: none;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  td{
+    border:none;
+    text-align: center;
+    height: 50;
+  }
+
+  .blankrow{
+    height: 7px;
+  }
+
+  .findOutMore a.page1 {
+    width: fit-content;
+    height: 70;
+    margin-left: 60%;
+    display: block;
+    color: #f2f2f2;
+    background-color: #1B2355;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .findOutMore a.page2 {
+    width: fit-content;
+    height: 70;
+    margin-left: 6%;
+    display: block;
+    color: #f2f2f2;
+    background-color: #1B2355;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .findOutMore a.page3 {
+    width: fit-content;
+    height: 70;
+    margin-left: 20%;
+    display: block;
+    color: #f2f2f2;
+    background-color: #1B2355;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .findOutMore a.page4 {
+    width: fit-content;
+    height: 70;
+    margin-left: auto;
+    margin-right: 10%;
+    display: block;
+    color: #f2f2f2;
+    background-color: #1B2355;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #1B2355;
+    color:#f1f1f1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .footer .column1 {
+    float: left;
+    height: 1.5rem;
+    width: 2rem;
+    margin-right: 0.75rem;
+    margin-left: 1%;
+    background-color: #1B2355;
+}
+
+.footer p{
+  margin-left: 1%;
+}
